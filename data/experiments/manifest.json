@@ -1,0 +1,663 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-09-07",
+  "experiments_rerun": false,
+  "origin": "allowlisted-fields-extracted-from-existing-server-artifacts",
+  "sources": {
+    "combined_update_metrics_0_40": {
+      "filename": "combined_update_metrics_0_40.csv",
+      "sha256": "b202b5e396a556e9d3689e7b59e2775728d15c6a94fa3c628db5a8ef6d301fc2",
+      "bytes": 13982,
+      "location": "private-review-archive"
+    },
+    "combined_rollout_metrics_0_40": {
+      "filename": "combined_rollout_metrics_0_40.csv",
+      "sha256": "4d265ad0f6a842ad533242c7652ff60196e35512575c59c788ace3732285b097",
+      "bytes": 2114,
+      "location": "private-review-archive"
+    },
+    "eval_success_rates": {
+      "filename": "eval_success_rates.csv",
+      "sha256": "0e16a72e1d893d8d17701c309eeb349664eb49a9326d58c7859bc84541e6c82a",
+      "bytes": 1150,
+      "location": "private-review-archive"
+    },
+    "data": {
+      "filename": "data.json",
+      "sha256": "d4c0714ee89c8f468cb48c8a34bfce63feaa53fd4a0c3bf026e2d56bd669765c",
+      "bytes": 958966,
+      "location": "private-review-archive"
+    },
+    "action_dynamics_sft_exp005": {
+      "filename": "action_dynamics_sft_exp005.json",
+      "sha256": "5a2dce8d2409aaa31a6d022d1ad91420d0e6476386e1b16ab32113403dc57c8d",
+      "bytes": 40192,
+      "location": "private-review-archive"
+    },
+    "ruler-summary": {
+      "filename": "ruler-summary.json",
+      "sha256": "2f9719c9554b1556bee407ddf5e630dd35faed9680ac9bc2a85741e405a4dc01",
+      "bytes": 5217,
+      "location": "private-review-archive"
+    },
+    "lingbot-exp005-summary": {
+      "filename": "lingbot-exp005-summary.json",
+      "sha256": "af3308263579c2b7e7bef59e7317cbf35c527fb540cee40dd3669b2069cdb685",
+      "bytes": 1287,
+      "location": "private-review-archive"
+    },
+    "lingbot-exp007-summary": {
+      "filename": "lingbot-exp007-summary.json",
+      "sha256": "7a67f4ca9d4e351a07ece9b606fdd9dda9058fda1bf6fcd88e6275b9475265cd",
+      "bytes": 1260,
+      "location": "private-review-archive"
+    },
+    "lingbot-exp010-summary": {
+      "filename": "lingbot-exp010-summary.json",
+      "sha256": "65f09bbbef5451f1440732a716b24063198005d2831ff253950b48e5d20dc65f",
+      "bytes": 1350,
+      "location": "private-review-archive"
+    },
+    "lingbot-exp016-summary": {
+      "filename": "lingbot-exp016-summary.json",
+      "sha256": "1ab20ebcb20190fabf502f5be14959a60991382a7c9a98179e6469062ac6cb3b",
+      "bytes": 1271,
+      "location": "private-review-archive"
+    },
+    "lingbot-exp005-config": {
+      "filename": "lingbot-exp005-config.json",
+      "sha256": "a59f63c3b5090715b57c6b1f37627b8a32e1407b4f57c96ba535f36812ffa8e8",
+      "bytes": 791,
+      "location": "private-review-archive"
+    },
+    "lingbot-exp005-train": {
+      "filename": "lingbot-exp005-train.jsonl",
+      "sha256": "9128b7e5e05c25ce0cb20781768b21f597e337c0d5303011a9191e8e2c78bbc5",
+      "bytes": 514198,
+      "location": "private-review-archive"
+    },
+    "lingbot-exp010-config": {
+      "filename": "lingbot-exp010-config.json",
+      "sha256": "002554549dd56f3718bdc3a3d8f31baa19a7d30cd749a206d6239860fb8e26ff",
+      "bytes": 1892,
+      "location": "private-review-archive"
+    },
+    "lingbot-exp010-train": {
+      "filename": "lingbot-exp010-train.jsonl",
+      "sha256": "654a4dcb2f0340ed9be894435003c50d58bc5ef64a5265c942a96a36c17318e1",
+      "bytes": 1256548,
+      "location": "private-review-archive"
+    },
+    "lingbot-exp016-config": {
+      "filename": "lingbot-exp016-config.json",
+      "sha256": "c5d9828de77a1b2f0306645e7f04564e39d8be6189776a98afdf54240b54082d",
+      "bytes": 3555,
+      "location": "private-review-archive"
+    },
+    "lingbot-exp016-train": {
+      "filename": "lingbot-exp016-train.jsonl",
+      "sha256": "7e4d7a2d2f52fbc670f8905932f188a3ae8442864cefcb5825f9e52d087261d4",
+      "bytes": 596982,
+      "location": "private-review-archive"
+    },
+    "lingbot-experiments": {
+      "filename": "lingbot-experiments.md",
+      "sha256": "a68ad356a228975d2784894b80261c311f964a97de96f9a169bd2a87af1991b1",
+      "bytes": 114454,
+      "location": "private-review-archive"
+    },
+    "gwp-stage-f-action-lora": {
+      "filename": "gwp-stage-f-action-lora.md",
+      "sha256": "b9b1ad132e82b925e97bf77a9d63ddeb78cecbc6c80bb43451f2a3a1e8d31e23",
+      "bytes": 6133,
+      "location": "private-review-archive"
+    },
+    "gwp-sac-flow-memory": {
+      "filename": "gwp-sac-flow-memory.md",
+      "sha256": "7ee4417f47c3b9c684c3956946ab39063f1fc1945f3b291e23b9253beeb248d5",
+      "bytes": 1809,
+      "location": "private-review-archive"
+    },
+    "gwp-full-loop-memory": {
+      "filename": "gwp-full-loop-memory.md",
+      "sha256": "9866c7017eeade0a6c418efd2c901168dea13282b4504b3ef736216da6ddf05c",
+      "bytes": 1611,
+      "location": "private-review-archive"
+    },
+    "gwp-entropy-loop-memory": {
+      "filename": "gwp-entropy-loop-memory.md",
+      "sha256": "ed189169406874d862e3a3b186b8d9ff47357da078626bd87f513a12c5f9d219",
+      "bytes": 420,
+      "location": "private-review-archive"
+    },
+    "gwp-bowls-report": {
+      "filename": "gwp-bowls-report.md",
+      "sha256": "5faa94aac89f16d35cda8c70509d61a17682c18065dc76b7ec328de1b712b2bb",
+      "bytes": 23147,
+      "location": "private-review-archive"
+    },
+    "gwp-sft50task-recipe": {
+      "filename": "gwp-sft50task-recipe.md",
+      "sha256": "e5bdac45ef6c21e16aa1a8df62016e4acacc1fe7142c08b1c3088a9e1d1ffed7",
+      "bytes": 4553,
+      "location": "private-review-archive"
+    },
+    "gwp-qgate-pilot": {
+      "filename": "gwp-qgate-pilot.json",
+      "sha256": "c652426d8c6d1003f3cbce792bce32bfd6fd1877b9331c60300b3bb7f6af9e3d",
+      "bytes": 16745,
+      "location": "private-review-archive"
+    },
+    "gwp-qgate-results": {
+      "filename": "gwp-qgate-results.json",
+      "sha256": "c0c4c74b8d3b7e11257109d8434ccaba359868b6266280b0362f883caff898b3",
+      "bytes": 44365,
+      "location": "private-review-archive"
+    },
+    "gwp-asar-results": {
+      "filename": "gwp-asar-results.json",
+      "sha256": "ad9f71efd711776bac1a9380c73faaddd56dc880f894ce140782440afdb31cb9",
+      "bytes": 30179,
+      "location": "private-review-archive"
+    },
+    "gwp-value-config": {
+      "filename": "gwp-value-config.json",
+      "sha256": "9e556c62f236415e7f01e9e3e73ca019408bc0718812fd438ca8ccc7ba22a031",
+      "bytes": 1075,
+      "location": "private-review-archive"
+    },
+    "gwp-value-final": {
+      "filename": "gwp-value-final.json",
+      "sha256": "2fbb113f8b2e57e2bee5cd4e4085b189a505ac765888c91b9ed30432c575bf1b",
+      "bytes": 147177,
+      "location": "private-review-archive"
+    },
+    "gwp-value-train": {
+      "filename": "gwp-value-train.jsonl",
+      "sha256": "dd5e68d22be1169164186e1fa13ae2373e76516fd90d725c063cf4bf1f9047a1",
+      "bytes": 666893,
+      "location": "private-review-archive"
+    },
+    "gwp-qgate-final": {
+      "filename": "gwp-qgate-final.json",
+      "sha256": "8d8000a0fbf2397294daebc139abe2d30997bb8fd11bd4261b186019e8978e94",
+      "bytes": 1402,
+      "location": "private-review-archive"
+    },
+    "gwp-qgate-training-code": {
+      "filename": "gwp-qgate-training-code.py",
+      "sha256": "e00fb734f2efec1330b531d8f3cb359d30b28da41442e45e7130e662bb48ce20",
+      "bytes": 11685,
+      "location": "private-review-archive"
+    },
+    "gwp-qgate-model": {
+      "filename": "gwp-qgate-model.py",
+      "sha256": "2cec696cf8e3ea6daf4ae99fae3e6026601edddf0d016de37317d45be165435c",
+      "bytes": 10012,
+      "location": "private-review-archive"
+    },
+    "gwp-qgate-experiment": {
+      "filename": "gwp-qgate-experiment.py",
+      "sha256": "13fe3c649d7d039784f8d472dba773066f336d7d176a0e2e441d22220bb11b5a",
+      "bytes": 71502,
+      "location": "private-review-archive"
+    },
+    "gwp-qgate-launch": {
+      "filename": "gwp-qgate-launch.sh",
+      "sha256": "5830c070e6dcd3f8986619e5866f972703ebe275cc4ce65e03ffd0f4f69bf8a9",
+      "bytes": 9253,
+      "location": "private-review-archive"
+    },
+    "gwp-qgate-training-launch": {
+      "filename": "gwp-qgate-training-launch.sh",
+      "sha256": "54f6d8793cdd79e3dce4adb91d4894b142d89609876542d536226c0e647da3d6",
+      "bytes": 5045,
+      "location": "private-review-archive"
+    },
+    "gwp-asar-launch": {
+      "filename": "gwp-asar-launch.sh",
+      "sha256": "730e0156512d64730ca1f469b36c38e61953ee06a49040acc7bfff0214f5e546",
+      "bytes": 9979,
+      "location": "private-review-archive"
+    },
+    "gwp-qgate-train": {
+      "filename": "gwp-qgate-train.jsonl",
+      "sha256": "005f14d4092a76ea4c84ca7a247a5088787bf18a81b91551d153bdb3330e5b26",
+      "bytes": 54819,
+      "location": "private-review-archive"
+    },
+    "gwp-baseline-stack_blocks_three": {
+      "filename": "gwp-baseline-stack_blocks_three.json",
+      "sha256": "8255ba409f04f536646fd7c322a1ba5099431eeeeabf90b4f9a3a6e07686b824",
+      "bytes": 2488,
+      "location": "private-review-archive"
+    },
+    "gwp-baseline-stack_bowls_three": {
+      "filename": "gwp-baseline-stack_bowls_three.json",
+      "sha256": "4ab2ff4d1c04e006063000cefec94e5d49de544c2d44fbf43f232b320b464975",
+      "bytes": 2473,
+      "location": "private-review-archive"
+    },
+    "gwp-baseline-blocks_ranking_size": {
+      "filename": "gwp-baseline-blocks_ranking_size.json",
+      "sha256": "530830ab651706f3e53e166fad3547280e8f2bd172d8b5cff549d926512c6716",
+      "bytes": 2506,
+      "location": "private-review-archive"
+    },
+    "gwp-baseline-place_dual_shoes": {
+      "filename": "gwp-baseline-place_dual_shoes.json",
+      "sha256": "98450068ea03b69e322f35a60fde16ffadecbafebea8d8a59fbb2837578c173d",
+      "bytes": 2459,
+      "location": "private-review-archive"
+    },
+    "gwp-baseline-open_microwave": {
+      "filename": "gwp-baseline-open_microwave.json",
+      "sha256": "a217aff159eb87dcdcddc487e2d2f5dd1c84f34b3c22f495672710fd7096e202",
+      "bytes": 2425,
+      "location": "private-review-archive"
+    },
+    "gwp-stage-f-base": {
+      "filename": "gwp-stage-f-base.json",
+      "sha256": "8c34410b36ff0a139e497a6904c4f56d8746a9b283f5e0de89ea4a669f61431a",
+      "bytes": 2308,
+      "location": "private-review-archive"
+    },
+    "gwp-stage-f-summary": {
+      "filename": "gwp-stage-f-summary.json",
+      "sha256": "98c82bdcb4f171bfbc57e2effe549948254e6d14c6e61636f40e17d883574da1",
+      "bytes": 2234,
+      "location": "private-review-archive"
+    },
+    "gwp-paired": {
+      "filename": "gwp-paired.json",
+      "sha256": "d2d93f038469e9fb285523bb617ee805cdc84454b8864cae41097aaded900de6",
+      "bytes": 11601,
+      "location": "private-review-archive"
+    },
+    "gwp-train": {
+      "filename": "gwp-train.jsonl",
+      "sha256": "5012dfc40d33f960127a72d7a35f09e38e97f5d568b2e4fb29ddf13cd3be96c7",
+      "bytes": 277116,
+      "location": "private-review-archive"
+    },
+    "gwp-selected": {
+      "filename": "gwp-selected.json",
+      "sha256": "9756a256cd65eaf854f83f94a4bf0fd92f776c871efc6e644203b37150877fbb",
+      "bytes": 12582,
+      "location": "private-review-archive"
+    },
+    "gwp-test5000": {
+      "filename": "gwp-test5000.json",
+      "sha256": "938ef1795b5e64f5b21d720faa8f62d3fc1c70e480a755c3bca8eb025f9c2855",
+      "bytes": 1549,
+      "location": "private-review-archive"
+    },
+    "gwp-gate": {
+      "filename": "gwp-gate.json",
+      "sha256": "6bfdc1dbfb539bdb8e9b2a7cae077c8155402ccf8f82a9010a694540001cd30d",
+      "bytes": 991,
+      "location": "private-review-archive"
+    },
+    "memory-dynamic-paired": {
+      "filename": "memory-dynamic-paired.json",
+      "sha256": "a25f42974701a3f3306ba99d06519331754a263c7196825597d006f931cd60c3",
+      "bytes": 8805,
+      "location": "private-review-archive"
+    },
+    "memory-dynamic-config": {
+      "filename": "memory-dynamic-config.json",
+      "sha256": "31864c9d74e632148245212e6a9076a4102eb956e652bb6ef8316e35277dab66",
+      "bytes": 8349,
+      "location": "private-review-archive"
+    },
+    "memory-injection-comparison": {
+      "filename": "memory-injection-comparison.json",
+      "sha256": "40c9c80bf13fac62af82881de6f9495053acc8db7bf34f661ffa9a962d4accc2",
+      "bytes": 52262,
+      "location": "private-review-archive"
+    },
+    "memory-early-action-config": {
+      "filename": "memory-early-action-config.json",
+      "sha256": "c809981f67fe6a3e804713899153b8099600a847d3872e1d62ae3fc22a42ab71",
+      "bytes": 8538,
+      "location": "private-review-archive"
+    },
+    "memory-early-va-config": {
+      "filename": "memory-early-va-config.json",
+      "sha256": "65bc9bec8d56a44585874a4e4ce6ce6ea5793d5b8271855e6d73b0a3520b2dcf",
+      "bytes": 8738,
+      "location": "private-review-archive"
+    },
+    "memory-v2-off": {
+      "filename": "memory-v2-off.json",
+      "sha256": "2d225f495cbcac75a60bd89f49ca5fd997300d1e7f7c25af1c980e2b629c9a1f",
+      "bytes": 5861,
+      "location": "private-review-archive"
+    },
+    "memory-v2-config": {
+      "filename": "memory-v2-config.json",
+      "sha256": "9e7c62ed54c3f33763b367ae23595f44a03ac9683a98de685dd950ef691f7b44",
+      "bytes": 9390,
+      "location": "private-review-archive"
+    },
+    "memory-v2-on": {
+      "filename": "memory-v2-on.json",
+      "sha256": "b28c7e9f0b524816bdb7b32b90dbba7e7ba8d6d22bc79ec13d901b07fc58aa03",
+      "bytes": 5972,
+      "location": "private-review-archive"
+    },
+    "memory-token-comparison": {
+      "filename": "memory-token-comparison.json",
+      "sha256": "6a32e9b04b4aa9b0c81cc1b61d339608343f0297ad86471b814932df267f305e",
+      "bytes": 30650,
+      "location": "private-review-archive"
+    },
+    "memory-token4-config": {
+      "filename": "memory-token4-config.json",
+      "sha256": "628b8ec23c01abc854ba7f37f49eae0cdaa692af525b2a6ac60c57cb3d239f31",
+      "bytes": 8971,
+      "location": "private-review-archive"
+    },
+    "memory-token8-config": {
+      "filename": "memory-token8-config.json",
+      "sha256": "b8f9874ec8f0c99e1f33e9e96be473b5e217dc2a005e5d35bd94d82b82dcca0b",
+      "bytes": 8971,
+      "location": "private-review-archive"
+    },
+    "memory-token16-config": {
+      "filename": "memory-token16-config.json",
+      "sha256": "d9a39eb4f727b79fd7b2671bf49310be46ca295c6ecbc5f6d60b575e88f5af48",
+      "bytes": 8972,
+      "location": "private-review-archive"
+    },
+    "memory-token32-config": {
+      "filename": "memory-token32-config.json",
+      "sha256": "2e488a8fdf4f647dfdda5293d9a8c54a26964a1fe03d22a7b7cf4857cfd73e94",
+      "bytes": 8972,
+      "location": "private-review-archive"
+    },
+    "memory-four-tasks": {
+      "filename": "memory-four-tasks.json",
+      "sha256": "257bb77987f5d3bab30e97c834ce8d94c34fa33fa71f8b2192f1386f7f58d6ec",
+      "bytes": 43138,
+      "location": "private-review-archive"
+    },
+    "memory-dustbin-config": {
+      "filename": "memory-dustbin-config.json",
+      "sha256": "4512d5e053d8d56db5cb142015955fa9cbe976c976afe915f7c6b7d248508bcf",
+      "bytes": 8981,
+      "location": "private-review-archive"
+    },
+    "memory-two-tasks": {
+      "filename": "memory-two-tasks.json",
+      "sha256": "3b9575288e7308cf5bc407e33ba163f57b1bc41dea3f52f08f832428fee22b1c",
+      "bytes": 20807,
+      "location": "private-review-archive"
+    }
+  },
+  "exports": {
+    "fastwam-updates.csv": {
+      "source_ids": [
+        "combined_update_metrics_0_40"
+      ],
+      "rows": 40,
+      "sha256": "9859c7c24068518a759d71329bd36a6f575c79eb78f28b67857ed3f61230244e"
+    },
+    "fastwam-rollouts.csv": {
+      "source_ids": [
+        "combined_rollout_metrics_0_40"
+      ],
+      "rows": 41,
+      "sha256": "4d641500e14e5e1a49167a3f248433d51c3a115ca75e90309e787b6578dd19f6"
+    },
+    "fastwam-evals.csv": {
+      "source_ids": [
+        "eval_success_rates"
+      ],
+      "rows": 6,
+      "sha256": "41fcee766e2f6f536e38fcee38d25f34147437c39133ed5ee0a1d1fd19fba915"
+    },
+    "lingbot-episodes.csv": {
+      "source_ids": [
+        "data"
+      ],
+      "rows": 160,
+      "sha256": "834d19899adfc7d70989e1c8c0d73de3e7f4888f97207d1eae65e95b5a2c149c"
+    },
+    "lingbot-runs.csv": {
+      "source_ids": [
+        "data"
+      ],
+      "rows": 10,
+      "sha256": "bb1e91c766b42f515890c99eb1e5325ccf00429472fe90873d7d8fe8573a762b"
+    },
+    "lingbot-action-audit.csv": {
+      "source_ids": [
+        "action_dynamics_sft_exp005"
+      ],
+      "rows": 32,
+      "sha256": "5cf67f1b36b9b6c5047410605986d397329012ba51aba992170c52749d03949f"
+    },
+    "lingbot-ruler-eval.json": {
+      "source_ids": [
+        "ruler-summary"
+      ],
+      "rows": 4,
+      "sha256": "5a4e4377b9cc6ff3cf583928ef59b5fe363b6f0ca61c6fdcc79f2876f9a03cf2"
+    },
+    "lingbot-formal-evals.json": {
+      "source_ids": [
+        "lingbot-exp005-summary",
+        "lingbot-exp007-summary",
+        "lingbot-exp010-summary",
+        "lingbot-exp016-summary"
+      ],
+      "rows": 4,
+      "sha256": "485673a8723b43f4e168a2ea1963f3d3cc698b1e5aa1f34fe14258c77c6cc930"
+    },
+    "lingbot-exp005-training.csv": {
+      "source_ids": [
+        "lingbot-exp005-train"
+      ],
+      "rows": 1500,
+      "sha256": "16a186b5f9930c7e80b80569385d4f0b6e0db3b088cc4619105cc6e2fc2aa371"
+    },
+    "lingbot-exp010-training.csv": {
+      "source_ids": [
+        "lingbot-exp010-train"
+      ],
+      "rows": 1000,
+      "sha256": "178b4429e3419ba4ca98e331a325273156b03384c23ae30944a1e6746ccdc902"
+    },
+    "lingbot-exp016-training.csv": {
+      "source_ids": [
+        "lingbot-exp016-train"
+      ],
+      "rows": 1500,
+      "sha256": "16ba1a279ca915f79baef354358296f2c130d562d7890fd412f0ffe39e28bb70"
+    },
+    "lingbot-selected-configs.json": {
+      "source_ids": [
+        "lingbot-exp005-config",
+        "lingbot-exp010-config",
+        "lingbot-exp016-config"
+      ],
+      "rows": 3,
+      "sha256": "384425b58eb52901248d3074a35426985f12f2f1f462347e1aab631d764672d4"
+    },
+    "gwp-qgate-paired.csv": {
+      "source_ids": [
+        "gwp-qgate-pilot",
+        "gwp-qgate-results"
+      ],
+      "rows": 32,
+      "sha256": "4a57b98e975af8c6e2f928d99d164ad591668087f1ed17bf8ffea715559a12af"
+    },
+    "gwp-asar-paired.csv": {
+      "source_ids": [
+        "gwp-asar-results"
+      ],
+      "rows": 32,
+      "sha256": "fa534029b721d3dc052c622b4626de169e87de2a0c6e6c59974a44bd56faac34"
+    },
+    "gwp-bowls-experiments.json": {
+      "source_ids": [
+        "gwp-asar-results",
+        "gwp-qgate-pilot",
+        "gwp-qgate-results",
+        "gwp-value-config",
+        "gwp-value-final"
+      ],
+      "rows": null,
+      "sha256": "154a5023813144f29c5c8bff6446ac285cf2d660fc9eb422ff0654fee6bafefb"
+    },
+    "gwp-value-training.csv": {
+      "source_ids": [
+        "gwp-value-train"
+      ],
+      "rows": 1500,
+      "sha256": "a66edd5518765a081f69b3862c4cd85451a9b89c8a6e809cc48bdab47eef6139"
+    },
+    "gwp-value-validation.csv": {
+      "source_ids": [
+        "gwp-value-train"
+      ],
+      "rows": 31,
+      "sha256": "3e3f6828e85c1b97e5aff80244307ab39e6e3662f7a06cffd1d7d0a58a235e7b"
+    },
+    "gwp-mc-q-config.json": {
+      "source_ids": [
+        "gwp-asar-launch",
+        "gwp-qgate-experiment",
+        "gwp-qgate-final",
+        "gwp-qgate-launch",
+        "gwp-qgate-model",
+        "gwp-qgate-training-code",
+        "gwp-qgate-training-launch"
+      ],
+      "rows": null,
+      "sha256": "b1180c65feb8997a16a1b00c9771dc58a7474885fe93db4edd0e8b2a30a7cb53"
+    },
+    "gwp-mc-q-training.csv": {
+      "source_ids": [
+        "gwp-qgate-train"
+      ],
+      "rows": 51,
+      "sha256": "a991fbf582d92334b0b2090a083df899edd1ee40bec20115bbef5d897bed5574"
+    },
+    "gwp-baseline-evals.json": {
+      "source_ids": [
+        "gwp-baseline-blocks_ranking_size",
+        "gwp-baseline-open_microwave",
+        "gwp-baseline-place_dual_shoes",
+        "gwp-baseline-stack_blocks_three",
+        "gwp-baseline-stack_bowls_three"
+      ],
+      "rows": 5,
+      "sha256": "3e7959dc7860ec77ba9fa3fa1466e784a24aa161fbaf9ec15ef6b8270eb5ece3"
+    },
+    "gwp-stage-f-evals.json": {
+      "source_ids": [
+        "gwp-stage-f-base",
+        "gwp-stage-f-summary"
+      ],
+      "rows": 2,
+      "sha256": "b353df4931c74fda2cbf982c5259fde89e786ac5d274e903bbc40fb7744c24c3"
+    },
+    "gwp-paired.csv": {
+      "source_ids": [
+        "gwp-paired"
+      ],
+      "rows": 64,
+      "sha256": "b16d5351e03da049a7823fa3beb63f2923920dd2a8da4321d97eff2528cd29ea"
+    },
+    "gwp-training.csv": {
+      "source_ids": [
+        "gwp-train"
+      ],
+      "rows": 301,
+      "sha256": "c4bdf3421bd458ead1fa973fec61834f935b2d3fb018dc0fb467b0c94c7d845b"
+    },
+    "gwp-checkpoints.csv": {
+      "source_ids": [
+        "gwp-selected",
+        "gwp-test5000"
+      ],
+      "rows": 8,
+      "sha256": "aeada811c92e7e233d449f1d258624cd449507734029ccaa4dd95f8682881bdb"
+    },
+    "gwp-branch-gate.json": {
+      "source_ids": [
+        "gwp-gate"
+      ],
+      "rows": null,
+      "sha256": "7f47c185e9555478a0ba5b5fdc8533fdb8d24ff29afa34d4e88df2ab9ee5b8b3"
+    },
+    "memory-zero-gate-audit.json": {
+      "source_ids": [
+        "memory-injection-comparison"
+      ],
+      "rows": null,
+      "sha256": "034ef37b20be8f1b4966c1a5b1cd075603faa60169e5af7647a9d7c26c10015f"
+    },
+    "memory-runs.json": {
+      "source_ids": [
+        "memory-dustbin-config",
+        "memory-dynamic-config",
+        "memory-dynamic-paired",
+        "memory-early-action-config",
+        "memory-early-va-config",
+        "memory-four-tasks",
+        "memory-injection-comparison",
+        "memory-token-comparison",
+        "memory-token16-config",
+        "memory-token32-config",
+        "memory-token4-config",
+        "memory-token8-config",
+        "memory-two-tasks",
+        "memory-v2-config",
+        "memory-v2-off",
+        "memory-v2-on"
+      ],
+      "rows": 24,
+      "sha256": "c60ae5c247a25ca16ba532653cdaea07bc7ac5846e2e9f0b3edcf62168a3add8"
+    },
+    "memory-episodes.csv": {
+      "source_ids": [
+        "memory-dustbin-config",
+        "memory-dynamic-config",
+        "memory-dynamic-paired",
+        "memory-early-action-config",
+        "memory-early-va-config",
+        "memory-four-tasks",
+        "memory-injection-comparison",
+        "memory-token-comparison",
+        "memory-token16-config",
+        "memory-token32-config",
+        "memory-token4-config",
+        "memory-token8-config",
+        "memory-two-tasks",
+        "memory-v2-config",
+        "memory-v2-off",
+        "memory-v2-on"
+      ],
+      "rows": 384,
+      "sha256": "5a7f9d6e5234fb83c8c1bcdfba91552feb17b6f11d88e716ce3b158c367defc7"
+    },
+    "memory-configs.json": {
+      "source_ids": [
+        "memory-dustbin-config",
+        "memory-dynamic-config",
+        "memory-early-action-config",
+        "memory-early-va-config",
+        "memory-token16-config",
+        "memory-token32-config",
+        "memory-token4-config",
+        "memory-token8-config",
+        "memory-v2-config"
+      ],
+      "rows": 9,
+      "sha256": "3d2dcf32b8a12217d2d06d9c8c3550ace92979a2329196e10a3d929083fe232b"
+    }
+  }
+}

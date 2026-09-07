@@ -1,0 +1,31 @@
+{
+  "deterministic_replay_pass": false,
+  "all_results_present": true,
+  "has_real_candidate_preferences": true,
+  "summary": {
+    "thresholds": {
+      "max_state_error": 0.02,
+      "min_latent_cosine": 0.99,
+      "max_latent_nrmse": 0.2
+    },
+    "target_count": 8,
+    "accepted_group_count": 5,
+    "useful_group_count": 1,
+    "pair_count": 4,
+    "rejected_audit_count": 12,
+    "missing_count": 0,
+    "success_count": 2,
+    "candidate_count": 20,
+    "split_seed": 20260726,
+    "split_group_counts": {
+      "train": 1,
+      "validation": 0,
+      "test": 0
+    },
+    "split_pair_counts": {
+      "train": 4,
+      "validation": 0,
+      "test": 0
+    }
+  }
+}

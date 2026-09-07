@@ -1,0 +1,30 @@
+{
+  "task": "place_bread_basket",
+  "succ_num": 6.0,
+  "completed_total_num": 16.0,
+  "total_num": 16.0,
+  "missing_or_timeout_num": 0.0,
+  "succ_rate": 0.375,
+  "workers": [
+    {
+      "succ_num": 1.0,
+      "total_num": 4.0,
+      "succ_rate": 0.25
+    },
+    {
+      "succ_num": 1.0,
+      "total_num": 4.0,
+      "succ_rate": 0.25
+    },
+    {
+      "succ_num": 2.0,
+      "total_num": 4.0,
+      "succ_rate": 0.5
+    },
+    {
+      "succ_num": 2.0,
+      "total_num": 4.0,
+      "succ_rate": 0.5
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">实验递进：从策略更新到真实执行</title><desc id="desc">四个相连的研究问题与独立的历史记忆分支。不同模型的箭头表示问题延续，不表示受控对照。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#65758b"/></marker></defs>
+<rect width="1200" height="700" fill="#fff"/>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif" fill="#18283b">
+<text x="40" y="52" font-size="28" font-weight="700">2026 年六月至七月实验记录</text>
+<text x="40" y="85" font-size="16" fill="#65758b">不同模型和任务分别统计；箭头连接相关工作，不表示受控对照。</text>
+<g stroke="#d9e1eb" stroke-width="1.5" fill="#f7f9fc"><rect x="40" y="125" width="535" height="172" rx="12"/><rect x="625" y="125" width="535" height="172" rx="12"/><rect x="40" y="350" width="535" height="172" rx="12"/><rect x="625" y="350" width="535" height="172" rx="12"/></g>
+<g font-size="21" font-weight="700"><text x="64" y="162">01 / 策略后训练 · FastWAM</text><text x="649" y="162">02 / 阶段信号 · LingBot</text><text x="64" y="387">03 / 预测与真实动作对照 · LingBot</text><text x="649" y="387">04 / 同状态动作选择 · GWP</text></g>
+<g font-size="17"><text x="64" y="195">接通 rollout、去噪轨迹与 actor 更新</text><text x="64" y="226">汇总：79/100 → 77/100 → 83/100</text><text x="64" y="269" fill="#52647a">Update 30 退化，Update 40 改善；原始计数待核对</text>
+<text x="649" y="195">成功示范内的进度 / 时间标签 → 加权训练</text><text x="649" y="226">完整评测：Base 9/16，训练版 6/16</text><text x="649" y="269" fill="#52647a">该版本只有成功示范内部标签，没有真实失败数据</text>
+<text x="64" y="420">三个进度评价器 + latent 约束；配对看视频</text><text x="64" y="451">Raw SFT 11/16，Exp005 11/16</text><text x="64" y="494" fill="#52647a">总数相同，成功场景不同；另记规划中止</text>
+<text x="649" y="420">旧 Q 重排 → 真实分支审计 → 未来主导 Q</text><text x="649" y="451">34/64 → 31/64 → 35/64；提升不显著</text><text x="649" y="494" fill="#52647a">轨迹判断 ≠ 局部动作排序 ≠ 失败定位</text></g>
+<g fill="none" stroke="#65758b" stroke-width="2" marker-end="url(#arrow)"><path d="M580 210H618"/><path d="M892 300V324H307V344"/><path d="M580 435H618"/></g>
+<rect x="40" y="566" width="1120" height="93" rx="12" fill="#fff" stroke="#7893ad" stroke-dasharray="7 5"/>
+<text x="64" y="602" font-size="21" font-weight="700">动态历史记忆</text><text x="64" y="635" font-size="17">动态历史：近期完整 token + 远期分层摘要 → 读取 8 token；评测结果还需对应具体版本。</text>
+</g></svg>

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "repository_name": "robotics-portfolio",
+  "owner": "shandenatou",
+  "updated_at": "2026-09-07",
+  "release_status": "private-draft",
+  "repository_visibility": "private",
+  "publication_approval": "pending",
+  "ownership_confirmation": "pending",
+  "license_review": "pending",
+  "sensitive_material_review": "pending",
+  "artifact_type": "research-case-study-portfolio",
+  "training_code_included": false,
+  "experiments_rerun": false,
+  "projects": [
+    {"id": "gwp-rl", "path": "projects/gwp-rl/README.md", "status": "two-32-pair-experiments-1500-training-rows-and-stage-f-evals"},
+    {"id": "gwp-mc-q-gate", "path": "projects/gwp-rl/experiments/mc-return-q-gate.md", "status": "method-implementation-reviewed-and-32-pairs"},
+    {"id": "gwp-history-value-asar", "path": "projects/gwp-rl/experiments/world-value-asar.md", "status": "method-loss-and-32-pairs-with-training-records"},
+    {"id": "gwp-action-lora", "path": "projects/gwp-rl/experiments/action-expert-lora.md", "status": "method-and-64-episode-aggregates"},
+    {"id": "gwp-baselines", "path": "projects/gwp-baselines/README.md", "status": "five-task-160-evaluation-aggregate-and-sft-recipe"},
+    {"id": "fastwam-policy-optimization", "path": "projects/fastwam-policy-optimization/README.md", "status": "report-and-partial-code-reviewed"},
+    {"id": "reward-action-alignment", "path": "projects/reward-action-alignment/README.md", "status": "160-review-episodes-plus-four-formal-summaries-and-4000-training-rows"},
+    {"id": "lingbot-progress-rl", "path": "projects/reward-action-alignment/experiments/exp005-progress-rl.md", "status": "formal-eval-config-and-1500-training-rows"},
+    {"id": "lingbot-preference-gradient", "path": "projects/reward-action-alignment/experiments/exp010-preference.md", "status": "formal-eval-config-and-1000-training-rows"},
+    {"id": "lingbot-lora-rl", "path": "projects/reward-action-alignment/experiments/exp016-lora.md", "status": "formal-eval-10-of-16-config-and-1500-training-rows"},
+    {"id": "world-preview-action-selection", "path": "projects/world-preview-action-selection/README.md", "status": "training-metrics-and-64-paired-episodes-extracted"},
+    {"id": "long-horizon-memory", "path": "projects/long-horizon-memory/README.md", "status": "24-evaluations-384-layout-records-9-configs-extracted"}
+  ]
+}

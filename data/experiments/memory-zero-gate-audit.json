@@ -1,0 +1,14 @@
+{
+  "source_id": "memory-injection-comparison",
+  "runtime_corrections_exact_zero": true,
+  "runtime_action_delta_exact_zero": true,
+  "checkpoint": {
+    "comparison_contract": "cast baseline tensors to candidate dtype, then require torch.equal",
+    "baseline_tensors": 1664,
+    "candidate_nonhistory_tensors": 1664,
+    "matched_nonhistory_tensors": 1664,
+    "candidate_history_tensors": 83,
+    "nonhistory_exact_after_dtype_cast": true,
+    "mismatches": []
+  }
+}

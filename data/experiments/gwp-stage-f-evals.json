@@ -1,0 +1,122 @@
+[
+  {
+    "run_id": "sft-control",
+    "task": "place_dual_shoes",
+    "source_id": "gwp-stage-f-base",
+    "successes": 35,
+    "episodes": 64,
+    "expected": 64,
+    "client_failures": 0,
+    "success_rate": 0.546875,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 82910000,
+        "successes": 4,
+        "episodes": 8
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 82920000,
+        "successes": 2,
+        "episodes": 8
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 82930000,
+        "successes": 7,
+        "episodes": 8
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 82940000,
+        "successes": 6,
+        "episodes": 8
+      },
+      {
+        "worker_id": 4,
+        "seed_start": 82950000,
+        "successes": 4,
+        "episodes": 8
+      },
+      {
+        "worker_id": 5,
+        "seed_start": 82960000,
+        "successes": 5,
+        "episodes": 8
+      },
+      {
+        "worker_id": 6,
+        "seed_start": 82970000,
+        "successes": 3,
+        "episodes": 8
+      },
+      {
+        "worker_id": 7,
+        "seed_start": 82980000,
+        "successes": 4,
+        "episodes": 8
+      }
+    ]
+  },
+  {
+    "run_id": "stage-f-lora",
+    "task": "place_dual_shoes",
+    "source_id": "gwp-stage-f-summary",
+    "successes": 36,
+    "episodes": 64,
+    "expected": 64,
+    "client_failures": 0,
+    "success_rate": 0.5625,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 82910000,
+        "successes": 4,
+        "episodes": 8
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 82920000,
+        "successes": 5,
+        "episodes": 8
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 82930000,
+        "successes": 6,
+        "episodes": 8
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 82940000,
+        "successes": 5,
+        "episodes": 8
+      },
+      {
+        "worker_id": 4,
+        "seed_start": 82950000,
+        "successes": 1,
+        "episodes": 8
+      },
+      {
+        "worker_id": 5,
+        "seed_start": 82960000,
+        "successes": 8,
+        "episodes": 8
+      },
+      {
+        "worker_id": 6,
+        "seed_start": 82970000,
+        "successes": 5,
+        "episodes": 8
+      },
+      {
+        "worker_id": 7,
+        "seed_start": 82980000,
+        "successes": 2,
+        "episodes": 8
+      }
+    ]
+  }
+]

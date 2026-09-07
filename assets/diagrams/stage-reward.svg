@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">阶段奖励：区分已实现基线与完整方案</title><desc id="desc">成功示范经过阶段坐标、阶段潜势差和耗时标签进入加权训练，闭环评测记录6/16。真实失败终局与预测latent投尺子属于该基线未包含的扩展。</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#65758b"/></marker></defs>
+<rect width="1200" height="560" fill="#fff"/>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif" fill="#18283b">
+<text x="40" y="52" font-size="28" font-weight="700">阶段标签与加权训练</text><text x="40" y="84" font-size="16" fill="#65758b">实线区：2026-07-09 success-demo-only 基线；虚线区：该基线未包含的扩展</text>
+<g fill="#f7f9fc" stroke="#d9e1eb" stroke-width="1.5"><rect x="40" y="130" width="240" height="128" rx="10"/><rect x="325" y="130" width="280" height="128" rx="10"/><rect x="650" y="130" width="235" height="128" rx="10"/><rect x="930" y="130" width="230" height="128" rx="10"/></g>
+<g font-size="21" font-weight="700"><text x="60" y="168">成功示范</text><text x="345" y="168">每条示范的阶段坐标</text><text x="670" y="168">sidecar 标签</text><text x="950" y="168">加权训练</text></g>
+<g font-size="17"><text x="60" y="202">内部片段有进展 / 停滞</text><text x="60" y="232">并非真实失败数据</text><text x="345" y="202">阶段潜势差 − 耗时成本</text><text x="345" y="232">不是只按帧数奖励前进</text><text x="670" y="202">94 正 / 26 中 / 246 负</text><text x="670" y="232">合计 366 个条目</text><text x="950" y="202">学习片段标签</text><text x="950" y="232">不等于会恢复失败</text></g>
+<g fill="none" stroke="#65758b" stroke-width="2" marker-end="url(#a)"><path d="M285 193H318"/><path d="M610 193H643"/><path d="M890 193H923"/><path d="M1045 263V300H780V324"/></g>
+<rect x="610" y="330" width="550" height="110" rx="10" fill="#fff4ef" stroke="#e0b9a3"/>
+<text x="635" y="370" font-size="22" font-weight="700">独立闭环：Base 9/16 → 训练版 6/16</text><text x="635" y="408" font-size="17">保留负结果；不能用 loss 下降代替任务成功率。</text>
+<rect x="40" y="330" width="510" height="110" rx="10" fill="#fff" stroke="#7893ad" stroke-dasharray="7 5"/>
+<text x="65" y="370" font-size="21" font-weight="700">未加入该基线的部分</text><text x="65" y="407" font-size="17">真实失败 / timeout 终局 · 预测 latent 投回阶段坐标</text>
+<text x="40" y="510" font-size="17" fill="#52647a">后续 Exp005 采用预测片段评价，是不同版本；其 11/16 不能混入本页 6/16 的对照。</text>
+</g></svg>

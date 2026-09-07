@@ -1,0 +1,125 @@
+{
+  "qgate": {
+    "combined": {
+      "episodes_per_arm": 32,
+      "baseline_successes": 26,
+      "baseline_success_rate": 0.8125,
+      "baseline_wilson_ci95": [
+        0.6469084479862404,
+        0.9111045531043405
+      ],
+      "q_gate_successes": 28,
+      "q_gate_success_rate": 0.875,
+      "q_gate_wilson_ci95": [
+        0.7193169451834978,
+        0.9502986561251991
+      ],
+      "success_rate_delta": 0.0625,
+      "paired_q_wins": 3,
+      "paired_baseline_wins": 1,
+      "paired_ties": 28,
+      "exact_paired_two_sided_p": 0.625
+    },
+    "extension24": {
+      "baseline": {
+        "episodes": 24,
+        "successes": 21,
+        "aborts": 0,
+        "selections": 1181,
+        "overrides": 0,
+        "override_rate": 0.0
+      },
+      "q_gate": {
+        "episodes": 24,
+        "successes": 21,
+        "aborts": 0,
+        "selections": 1130,
+        "overrides": 216,
+        "override_rate": 0.1911504424778761
+      }
+    }
+  },
+  "asar": {
+    "methods": {
+      "old_q_asar": {
+        "episodes": 32,
+        "successes": 23,
+        "success_rate": 0.71875,
+        "wilson_ci95": [
+          0.5462549057408342,
+          0.8443541950225723
+        ],
+        "aborts": 0
+      },
+      "world_value_asar": {
+        "episodes": 32,
+        "successes": 27,
+        "success_rate": 0.84375,
+        "wilson_ci95": [
+          0.682458504024696,
+          0.9313557971749429
+        ],
+        "aborts": 0
+      }
+    },
+    "paired": {
+      "completed_pairs": 32,
+      "world_value_wins": 9,
+      "old_q_wins": 5,
+      "ties": 18,
+      "exact_two_sided_p": 0.4239501953125
+    }
+  },
+  "value_config": {
+    "steps": 1500,
+    "batch_size": 256,
+    "eval_batch_size": 512,
+    "cache_batch_size": 256,
+    "max_rows": null,
+    "history_length": 5,
+    "num_bins": 256,
+    "failure_penalty": 0.35,
+    "world_weight": 0.5,
+    "consistency_weight": 2.0,
+    "delta_weight": 2.0,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "validate_interval": 50,
+    "log_interval": 10,
+    "seed": 20260806,
+    "rows": 9770,
+    "train_rows": 8049,
+    "validation_rows": 1721,
+    "t_max": 100,
+    "failure_penalty_chunks": 35.0,
+    "method": "history_conditioned_wam_world_value",
+    "backbone_frozen": true,
+    "target": "Robo-ValueRL remaining-time progress with failure penalty"
+  },
+  "value_selected_metrics": {
+    "val/available": true,
+    "val/rows": 1721,
+    "val/episodes": 32,
+    "val/ce": 3.8361240810325574,
+    "val/mae": 0.21130864322185516,
+    "val/world_mae": 0.20905178785324097,
+    "val/real_next_mae": 0.21100349724292755,
+    "val/world_real_mae": 0.023927409201860428,
+    "val/world_real_corr": 0.9729557407110129,
+    "val/value_target_corr": 0.48037684238449435,
+    "val/delta_mae": 0.043718043714761734,
+    "val/delta_corr": 0.045794461992192774,
+    "val/delta_positive_rate": 0.6388395500296034,
+    "val/mor": 0.8263888888888888,
+    "val/bump_ratio": 0.26198439241917504,
+    "val/bump_magnitude": 0.01730784175786685,
+    "val/success_endpoint_span": 0.3922743151585261,
+    "val/episode_auc": 1.0,
+    "val/stage_macro_auc": 0.733133701389926,
+    "status": "complete",
+    "trained_steps": 1500,
+    "selected_step": 500,
+    "selection_score": 0.2787956027767442,
+    "elapsed_seconds": 108.91477608680725
+  }
+}

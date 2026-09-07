@@ -1,0 +1,146 @@
+[
+  {
+    "run_id": "exp005",
+    "source_id": "lingbot-exp005-summary",
+    "task": "place_bread_basket",
+    "successes": 11,
+    "episodes": 16,
+    "completed": 16,
+    "expected": 16,
+    "success_rate": 0.6875,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 64230000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 64240000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 64250000,
+        "successes": 4,
+        "episodes": 4
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 64260000,
+        "successes": 3,
+        "episodes": 4
+      }
+    ]
+  },
+  {
+    "run_id": "exp007",
+    "source_id": "lingbot-exp007-summary",
+    "task": "place_bread_basket",
+    "successes": 8,
+    "episodes": 16,
+    "completed": 16,
+    "expected": 16,
+    "success_rate": 0.5,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 64230000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 64240000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 64250000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 64260000,
+        "successes": 3,
+        "episodes": 4
+      }
+    ]
+  },
+  {
+    "run_id": "exp010",
+    "source_id": "lingbot-exp010-summary",
+    "task": "place_bread_basket",
+    "successes": 6,
+    "episodes": 16,
+    "completed": 16,
+    "expected": 16,
+    "success_rate": 0.375,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 64230000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 64240000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 64250000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 64260000,
+        "successes": 1,
+        "episodes": 4
+      }
+    ]
+  },
+  {
+    "run_id": "exp016",
+    "source_id": "lingbot-exp016-summary",
+    "task": "place_bread_basket",
+    "successes": 10,
+    "episodes": 16,
+    "completed": 16,
+    "expected": 16,
+    "success_rate": 0.625,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 64230000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 64240000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 64250000,
+        "successes": 4,
+        "episodes": 4
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 64260000,
+        "successes": 2,
+        "episodes": 4
+      }
+    ]
+  }
+]

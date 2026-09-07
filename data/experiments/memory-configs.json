@@ -1,0 +1,467 @@
+{
+  "memory-dynamic-config": {
+    "source_id": "memory-dynamic-config",
+    "history": {
+      "history_memory_dim": 512,
+      "history_num_tokens": 8,
+      "history_recent_capacity": 3,
+      "history_archive_level_capacity": 2,
+      "history_max_archive_levels": 8,
+      "history_layers": [
+        12,
+        24
+      ],
+      "history_bridge_dim": 512,
+      "history_num_heads": 8,
+      "history_dropout": 0.0
+    },
+    "train": {
+      "max_steps": 3000,
+      "gradient_accumulation_steps": 4,
+      "mixed_precision": "bf16",
+      "with_ema": false
+    },
+    "optimizer": {
+      "type": "CAME8Bit",
+      "lr": 0.0001,
+      "weight_decay": 0.01
+    },
+    "gpus": 4,
+    "batch_per_gpu": 1,
+    "history_frame_offsets": [
+      -192,
+      -96,
+      -48,
+      -24,
+      -12
+    ],
+    "history_recent_count": 2,
+    "effective_batch": 16,
+    "training_episode_range": {
+      "episode_start": 100,
+      "episode_stop": 200
+    }
+  },
+  "memory-early-action-config": {
+    "source_id": "memory-early-action-config",
+    "history": {
+      "history_memory_dim": 512,
+      "history_num_tokens": 8,
+      "history_recent_capacity": 3,
+      "history_archive_level_capacity": 2,
+      "history_max_archive_levels": 8,
+      "history_layers": [
+        4,
+        8
+      ],
+      "history_bridge_dim": 512,
+      "history_num_heads": 8,
+      "history_dropout": 0.0,
+      "history_action_layers": [
+        4,
+        8
+      ],
+      "history_visual_layers": []
+    },
+    "train": {
+      "max_steps": 3000,
+      "gradient_accumulation_steps": 8,
+      "mixed_precision": "bf16",
+      "with_ema": false
+    },
+    "optimizer": {
+      "type": "CAME8Bit",
+      "lr": 0.0001,
+      "weight_decay": 0.01
+    },
+    "gpus": 2,
+    "batch_per_gpu": 1,
+    "history_frame_offsets": [
+      -192,
+      -96,
+      -48,
+      -24,
+      -12
+    ],
+    "history_recent_count": 2,
+    "effective_batch": 16,
+    "training_episode_range": {
+      "episode_start": 100,
+      "episode_stop": 200
+    }
+  },
+  "memory-early-va-config": {
+    "source_id": "memory-early-va-config",
+    "history": {
+      "history_memory_dim": 512,
+      "history_num_tokens": 8,
+      "history_recent_capacity": 3,
+      "history_archive_level_capacity": 2,
+      "history_max_archive_levels": 8,
+      "history_layers": [
+        4,
+        8
+      ],
+      "history_bridge_dim": 512,
+      "history_num_heads": 8,
+      "history_dropout": 0.0,
+      "history_action_layers": [
+        4,
+        8
+      ],
+      "history_visual_layers": [
+        4,
+        8
+      ]
+    },
+    "train": {
+      "max_steps": 3000,
+      "gradient_accumulation_steps": 8,
+      "mixed_precision": "bf16",
+      "with_ema": false
+    },
+    "optimizer": {
+      "type": "CAME8Bit",
+      "lr": 0.0001,
+      "weight_decay": 0.01
+    },
+    "gpus": 2,
+    "batch_per_gpu": 1,
+    "history_frame_offsets": [
+      -192,
+      -96,
+      -48,
+      -24,
+      -12
+    ],
+    "history_recent_count": 2,
+    "effective_batch": 16,
+    "training_episode_range": {
+      "episode_start": 100,
+      "episode_stop": 200
+    }
+  },
+  "memory-v2-config": {
+    "source_id": "memory-v2-config",
+    "history": {
+      "history_memory_dim": 512,
+      "history_num_tokens": 8,
+      "history_recent_capacity": 3,
+      "history_archive_level_capacity": 2,
+      "history_max_archive_levels": 8,
+      "history_layers": [
+        4,
+        8
+      ],
+      "history_bridge_dim": 512,
+      "history_num_heads": 8,
+      "history_dropout": 0.0,
+      "history_action_layers": [
+        4,
+        8
+      ],
+      "history_visual_layers": [],
+      "history_action_output_groups": [
+        "right_joints",
+        "right_gripper"
+      ],
+      "history_action_output_bridge_dim": 256,
+      "history_action_output_zero_init": true,
+      "history_action_output_initial_gate": 0.1,
+      "history_trainable_modules": [
+        "history_action_output_bridge"
+      ]
+    },
+    "train": {
+      "max_steps": 1500,
+      "gradient_accumulation_steps": 4,
+      "mixed_precision": "bf16",
+      "with_ema": false
+    },
+    "optimizer": {
+      "type": "CAME8Bit",
+      "lr": 0.0001,
+      "weight_decay": 0.01
+    },
+    "gpus": 4,
+    "batch_per_gpu": 1,
+    "history_frame_offsets": [
+      -192,
+      -96,
+      -48,
+      -24,
+      -12
+    ],
+    "history_recent_count": 2,
+    "effective_batch": 16,
+    "training_episode_range": {
+      "episode_start": 100,
+      "episode_stop": 200
+    }
+  },
+  "memory-token4-config": {
+    "source_id": "memory-token4-config",
+    "history": {
+      "history_memory_dim": 512,
+      "history_num_tokens": 4,
+      "history_recent_capacity": 3,
+      "history_archive_level_capacity": 2,
+      "history_max_archive_levels": 8,
+      "history_layers": [
+        4,
+        8
+      ],
+      "history_bridge_dim": 512,
+      "history_num_heads": 8,
+      "history_dropout": 0.0,
+      "history_representation": "snapshot",
+      "history_transition_top_fraction": 0.05,
+      "history_transition_relevance_scale": 1.0,
+      "history_bridge_zero_init": false,
+      "history_bridge_initial_gate": 0.0,
+      "history_action_layers": [
+        4,
+        8
+      ],
+      "history_visual_layers": []
+    },
+    "train": {
+      "max_steps": 3000,
+      "gradient_accumulation_steps": 16,
+      "mixed_precision": "bf16",
+      "with_ema": false
+    },
+    "optimizer": {
+      "type": "CAME8Bit",
+      "lr": 0.0001,
+      "weight_decay": 0.01
+    },
+    "gpus": 1,
+    "batch_per_gpu": 1,
+    "history_frame_offsets": [
+      -192,
+      -96,
+      -48,
+      -24,
+      -12
+    ],
+    "history_recent_count": 2,
+    "effective_batch": 16,
+    "training_episode_range": {
+      "episode_start": 100,
+      "episode_stop": 200
+    }
+  },
+  "memory-token8-config": {
+    "source_id": "memory-token8-config",
+    "history": {
+      "history_memory_dim": 512,
+      "history_num_tokens": 8,
+      "history_recent_capacity": 3,
+      "history_archive_level_capacity": 2,
+      "history_max_archive_levels": 8,
+      "history_layers": [
+        4,
+        8
+      ],
+      "history_bridge_dim": 512,
+      "history_num_heads": 8,
+      "history_dropout": 0.0,
+      "history_representation": "snapshot",
+      "history_transition_top_fraction": 0.05,
+      "history_transition_relevance_scale": 1.0,
+      "history_bridge_zero_init": false,
+      "history_bridge_initial_gate": 0.0,
+      "history_action_layers": [
+        4,
+        8
+      ],
+      "history_visual_layers": []
+    },
+    "train": {
+      "max_steps": 3000,
+      "gradient_accumulation_steps": 16,
+      "mixed_precision": "bf16",
+      "with_ema": false
+    },
+    "optimizer": {
+      "type": "CAME8Bit",
+      "lr": 0.0001,
+      "weight_decay": 0.01
+    },
+    "gpus": 1,
+    "batch_per_gpu": 1,
+    "history_frame_offsets": [
+      -192,
+      -96,
+      -48,
+      -24,
+      -12
+    ],
+    "history_recent_count": 2,
+    "effective_batch": 16,
+    "training_episode_range": {
+      "episode_start": 100,
+      "episode_stop": 200
+    }
+  },
+  "memory-token16-config": {
+    "source_id": "memory-token16-config",
+    "history": {
+      "history_memory_dim": 512,
+      "history_num_tokens": 16,
+      "history_recent_capacity": 3,
+      "history_archive_level_capacity": 2,
+      "history_max_archive_levels": 8,
+      "history_layers": [
+        4,
+        8
+      ],
+      "history_bridge_dim": 512,
+      "history_num_heads": 8,
+      "history_dropout": 0.0,
+      "history_representation": "snapshot",
+      "history_transition_top_fraction": 0.05,
+      "history_transition_relevance_scale": 1.0,
+      "history_bridge_zero_init": false,
+      "history_bridge_initial_gate": 0.0,
+      "history_action_layers": [
+        4,
+        8
+      ],
+      "history_visual_layers": []
+    },
+    "train": {
+      "max_steps": 3000,
+      "gradient_accumulation_steps": 16,
+      "mixed_precision": "bf16",
+      "with_ema": false
+    },
+    "optimizer": {
+      "type": "CAME8Bit",
+      "lr": 0.0001,
+      "weight_decay": 0.01
+    },
+    "gpus": 1,
+    "batch_per_gpu": 1,
+    "history_frame_offsets": [
+      -192,
+      -96,
+      -48,
+      -24,
+      -12
+    ],
+    "history_recent_count": 2,
+    "effective_batch": 16,
+    "training_episode_range": {
+      "episode_start": 100,
+      "episode_stop": 200
+    }
+  },
+  "memory-token32-config": {
+    "source_id": "memory-token32-config",
+    "history": {
+      "history_memory_dim": 512,
+      "history_num_tokens": 32,
+      "history_recent_capacity": 3,
+      "history_archive_level_capacity": 2,
+      "history_max_archive_levels": 8,
+      "history_layers": [
+        4,
+        8
+      ],
+      "history_bridge_dim": 512,
+      "history_num_heads": 8,
+      "history_dropout": 0.0,
+      "history_representation": "snapshot",
+      "history_transition_top_fraction": 0.05,
+      "history_transition_relevance_scale": 1.0,
+      "history_bridge_zero_init": false,
+      "history_bridge_initial_gate": 0.0,
+      "history_action_layers": [
+        4,
+        8
+      ],
+      "history_visual_layers": []
+    },
+    "train": {
+      "max_steps": 3000,
+      "gradient_accumulation_steps": 16,
+      "mixed_precision": "bf16",
+      "with_ema": false
+    },
+    "optimizer": {
+      "type": "CAME8Bit",
+      "lr": 0.0001,
+      "weight_decay": 0.01
+    },
+    "gpus": 1,
+    "batch_per_gpu": 1,
+    "history_frame_offsets": [
+      -192,
+      -96,
+      -48,
+      -24,
+      -12
+    ],
+    "history_recent_count": 2,
+    "effective_batch": 16,
+    "training_episode_range": {
+      "episode_start": 100,
+      "episode_stop": 200
+    }
+  },
+  "memory-dustbin-config": {
+    "source_id": "memory-dustbin-config",
+    "history": {
+      "history_memory_dim": 512,
+      "history_num_tokens": 8,
+      "history_recent_capacity": 3,
+      "history_archive_level_capacity": 2,
+      "history_max_archive_levels": 8,
+      "history_layers": [
+        4,
+        8
+      ],
+      "history_bridge_dim": 512,
+      "history_num_heads": 8,
+      "history_dropout": 0.0,
+      "history_representation": "snapshot",
+      "history_transition_top_fraction": 0.05,
+      "history_transition_relevance_scale": 1.0,
+      "history_bridge_zero_init": false,
+      "history_bridge_initial_gate": 0.0,
+      "history_action_layers": [
+        4,
+        8
+      ],
+      "history_visual_layers": []
+    },
+    "train": {
+      "max_steps": 3000,
+      "gradient_accumulation_steps": 16,
+      "mixed_precision": "bf16",
+      "with_ema": false
+    },
+    "optimizer": {
+      "type": "CAME8Bit",
+      "lr": 0.0001,
+      "weight_decay": 0.01
+    },
+    "gpus": 1,
+    "batch_per_gpu": 1,
+    "history_frame_offsets": [
+      -192,
+      -96,
+      -48,
+      -24,
+      -12
+    ],
+    "history_recent_count": 2,
+    "effective_batch": 16,
+    "training_episode_range": {
+      "episode_start": 1000,
+      "episode_stop": 1100
+    }
+  }
+}

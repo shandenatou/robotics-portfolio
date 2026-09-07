@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "origin": "manually-transcribed-historical-summaries",
+  "rerun": false,
+  "records": [
+    {"id":"fastwam-stack-bowls","task":"stack_bowls_three","evidence_level":"report-and-csv-summary","count_caveat":"source field successes_est; raw aggregates pending","conditions":[{"name":"randomized","total":50,"successes":{"base":41,"update30":40,"update40":44}},{"name":"clean","total":50,"successes":{"base":38,"update30":37,"update40":39}}]},
+    {"id":"lingbot-success-demo-only","task":"place_bread_basket","evidence_level":"historical-complete-eval-report","total":16,"successes":{"base":9,"step1500":6}},
+    {"id":"lingbot-raw-sft-exp005-gallery","task":"place_bread_basket","evidence_level":"secondary-review-gallery-metadata","total":16,"successes":{"raw_sft_step400":11,"exp005":11},"aborts":{"raw_sft_step400":0,"exp005":2}},
+    {"id":"gwp-place-dual-shoes","task":"place_dual_shoes","evidence_level":"historical-report","total":64,"successes":{"sft":34,"temporal_k4":31,"temporal_k8":30,"world_preview_k4":35},"paired":{"baseline":"sft","candidate":"world_preview_k4","both_success":19,"baseline_only":15,"candidate_only":16,"both_failure":14},"reported_mcnemar_two_sided_p":1.0}
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">World-Preview Bellman：世界预测主路径与动作重排</title><desc id="desc">冻结策略生成四个48步候选和对应未来latent。未来价值加L2正则残差构成双Q，FP32评分选保守值最大候选，执行12步后重新观察。真实下一状态用于离线Bellman训练目标。</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#65758b"/></marker></defs>
+<rect width="1200" height="650" fill="#fff"/>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif" fill="#18283b">
+<text x="40" y="52" font-size="28" font-weight="700">World-Preview Bellman 结构与执行流程</text><text x="40" y="85" font-size="16" fill="#65758b">上方：冻结策略与 critic 的在线重排；下方虚线：critic 的离线训练信号</text>
+<g fill="#f7f9fc" stroke="#d9e1eb" stroke-width="1.5"><rect x="40" y="140" width="185" height="130" rx="10"/><rect x="265" y="140" width="240" height="130" rx="10"/><rect x="545" y="130" width="340" height="175" rx="10"/><rect x="925" y="140" width="235" height="130" rx="10"/></g>
+<g font-size="20" font-weight="700"><text x="60" y="178">当前状态 + 指令</text><text x="285" y="178">冻结 SFT 生成 K=4</text><text x="565" y="166">双 Q：未来价值为主路径</text><text x="945" y="178">FP32 候选评分</text></g>
+<g font-size="17"><text x="60" y="213">观察 / 编码 z_now</text><text x="60" y="244">每次重规划更新</text><text x="285" y="213">四个 48 步 action plan</text><text x="285" y="244">各自预测未来 z_pred</text><text x="565" y="204">V_preview(z_pred, instruction)</text><text x="565" y="238">+ C(z_now, action, z_pred)</text><text x="565" y="278" fill="#52647a">C 用 L2 惩罚；不是硬上界</text><text x="945" y="213">argmax min(Q1, Q2)</text><text x="945" y="244">选出一个候选</text></g>
+<g fill="none" stroke="#65758b" stroke-width="2" marker-end="url(#a)"><path d="M230 205H258"/><path d="M510 205H538"/><path d="M890 205H918"/><path d="M1040 275V345"/><path d="M920 393H132V278"/></g>
+<rect x="925" y="351" width="235" height="90" rx="10" fill="#edf5fb" stroke="#aec7dd"/><text x="945" y="385" font-size="20" font-weight="700">只执行前 12 步</text><text x="945" y="418" font-size="17">返回真实环境，再观察</text>
+<text x="320" y="377" font-size="17" fill="#52647a">12 步后的真实观察 ≠ 48 步预测端点</text>
+<rect x="40" y="476" width="1120" height="115" rx="10" fill="#fff" stroke="#7893ad" stroke-dasharray="7 5"/>
+<text x="64" y="512" font-size="20" font-weight="700">离线训练：真实 transition + 终局奖励 → Bellman 目标 → Q / V / preview 损失</text>
+<text x="64" y="548" font-size="18">y = r + γ (1 − done) V_target(z_real_next)；preview 两个头都回归真实目标。</text>
+<text x="64" y="574" font-size="16" fill="#52647a">报告结果：SFT 34/64，旧 Q 的 K4 为 31/64，本方法 35/64；净增 1/64，不是显著改善。</text>
+</g></svg>

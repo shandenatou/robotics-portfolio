@@ -1,0 +1,11 @@
+run_id,episodes,successes,aborts,method_in_gallery,source_id
+sft,16,11,0,Raw SFT step400,data
+exp005,16,11,2,完整4步进度RL,data
+exp008,16,5,0,,data
+exp009,16,4,0,,data
+exp010,16,6,0,,data
+exp011,16,5,2,,data
+exp012,16,2,0,SFT初始化 + 原生Exp005目标,data
+exp013,16,3,0,联合video-action信任域,data
+exp014,16,1,0,Demo进度校准 + 联合信任域,data
+exp015,16,7,1,冻结SFT + Latent RLT动作残差适配器,data

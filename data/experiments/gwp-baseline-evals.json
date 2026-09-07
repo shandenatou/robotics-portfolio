@@ -1,0 +1,302 @@
+[
+  {
+    "run_id": "sft90k-randomized",
+    "task": "stack_blocks_three",
+    "source_id": "gwp-baseline-stack_blocks_three",
+    "successes": 24,
+    "episodes": 32,
+    "expected": 32,
+    "client_failures": 0,
+    "success_rate": 0.75,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 64230000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 64240000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 64250000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 64260000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 4,
+        "seed_start": 64270000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 5,
+        "seed_start": 64280000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 6,
+        "seed_start": 64290000,
+        "successes": 4,
+        "episodes": 4
+      },
+      {
+        "worker_id": 7,
+        "seed_start": 64300000,
+        "successes": 3,
+        "episodes": 4
+      }
+    ]
+  },
+  {
+    "run_id": "sft90k-randomized",
+    "task": "stack_bowls_three",
+    "source_id": "gwp-baseline-stack_bowls_three",
+    "successes": 20,
+    "episodes": 32,
+    "expected": 32,
+    "client_failures": 0,
+    "success_rate": 0.625,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 64230000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 64240000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 64250000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 64260000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 4,
+        "seed_start": 64270000,
+        "successes": 4,
+        "episodes": 4
+      },
+      {
+        "worker_id": 5,
+        "seed_start": 64280000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 6,
+        "seed_start": 64290000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 7,
+        "seed_start": 64300000,
+        "successes": 2,
+        "episodes": 4
+      }
+    ]
+  },
+  {
+    "run_id": "sft90k-randomized",
+    "task": "blocks_ranking_size",
+    "source_id": "gwp-baseline-blocks_ranking_size",
+    "successes": 18,
+    "episodes": 32,
+    "expected": 32,
+    "client_failures": 0,
+    "success_rate": 0.5625,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 64230000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 64240000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 64250000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 64260000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 4,
+        "seed_start": 64270000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 5,
+        "seed_start": 64280000,
+        "successes": 4,
+        "episodes": 4
+      },
+      {
+        "worker_id": 6,
+        "seed_start": 64290000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 7,
+        "seed_start": 64300000,
+        "successes": 2,
+        "episodes": 4
+      }
+    ]
+  },
+  {
+    "run_id": "sft90k-randomized",
+    "task": "place_dual_shoes",
+    "source_id": "gwp-baseline-place_dual_shoes",
+    "successes": 15,
+    "episodes": 32,
+    "expected": 32,
+    "client_failures": 0,
+    "success_rate": 0.46875,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 64230000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 64240000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 64250000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 64260000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 4,
+        "seed_start": 64270000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 5,
+        "seed_start": 64280000,
+        "successes": 2,
+        "episodes": 4
+      },
+      {
+        "worker_id": 6,
+        "seed_start": 64290000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 7,
+        "seed_start": 64300000,
+        "successes": 3,
+        "episodes": 4
+      }
+    ]
+  },
+  {
+    "run_id": "sft90k-randomized",
+    "task": "open_microwave",
+    "source_id": "gwp-baseline-open_microwave",
+    "successes": 6,
+    "episodes": 32,
+    "expected": 32,
+    "client_failures": 0,
+    "success_rate": 0.1875,
+    "workers": [
+      {
+        "worker_id": 0,
+        "seed_start": 64230000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 1,
+        "seed_start": 64240000,
+        "successes": 0,
+        "episodes": 4
+      },
+      {
+        "worker_id": 2,
+        "seed_start": 64250000,
+        "successes": 0,
+        "episodes": 4
+      },
+      {
+        "worker_id": 3,
+        "seed_start": 64260000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 4,
+        "seed_start": 64270000,
+        "successes": 0,
+        "episodes": 4
+      },
+      {
+        "worker_id": 5,
+        "seed_start": 64280000,
+        "successes": 1,
+        "episodes": 4
+      },
+      {
+        "worker_id": 6,
+        "seed_start": 64290000,
+        "successes": 3,
+        "episodes": 4
+      },
+      {
+        "worker_id": 7,
+        "seed_start": 64300000,
+        "successes": 0,
+        "episodes": 4
+      }
+    ]
+  }
+]

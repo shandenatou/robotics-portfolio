@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="430" viewBox="0 0 1080 430" role="img" aria-labelledby="title desc">
+<title id="title">从训练信号到环境闭环</title><desc id="desc">三个不同问题：去噪轨迹与策略更新，进度和世界预测评价，真实执行与配对评测。环境证据反馈到研究假设；历史记忆是输入侧并行分支。示意研究问题，不是所有模型共享同一实现。</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="none" stroke="#4b6584" stroke-width="1.2"/></marker></defs>
+<rect width="1080" height="430" fill="#ffffff"/><rect x="1" y="1" width="1078" height="428" rx="12" fill="none" stroke="#dce3ec"/>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif" fill="#162c46">
+<text x="32" y="45" font-size="15" letter-spacing="1.5" fill="#517296">RESEARCH OVERVIEW</text><text x="32" y="82" font-size="27" font-weight="700">策略更新、评价与环境执行</text>
+<g fill="#f3f6fa"><rect x="32" y="117" width="308" height="153" rx="8"/><rect x="386" y="117" width="308" height="153" rx="8"/><rect x="740" y="117" width="308" height="153" rx="8"/></g>
+<g font-size="15" fill="#597590"><text x="52" y="146">01 / POLICY UPDATE</text><text x="406" y="146">02 / VALUE &amp; PROGRESS</text><text x="760" y="146">03 / CLOSED-LOOP EVAL</text></g>
+<g font-size="23" font-weight="700"><text x="52" y="184">策略更新</text><text x="406" y="184">进度与动作评分</text><text x="760" y="184">环境评测</text></g>
+<g font-size="17" fill="#41576f"><text x="52" y="219">去噪轨迹 · Trace sidecar</text><text x="52" y="247">Actor 适配 · 更新约束</text><text x="406" y="219">阶段信号 · 世界预测</text><text x="406" y="247">同状态候选 · 价值排序</text><text x="760" y="219">实际成功率 · 配对得失</text><text x="760" y="247">失败案例 · 下一轮假设</text></g>
+<g fill="none" stroke="#4b6584" stroke-width="1.7" marker-end="url(#arrow)"><path d="M348 192H376"/><path d="M702 192H730"/><path d="M894 279V313H186V279"/></g>
+<rect x="386" y="298" width="308" height="30" fill="#fff"/><text x="420" y="319" font-size="17" fill="#456483">根据评测结果继续修改</text>
+<path d="M32 351H1048" stroke="#dce3ec"/><text x="32" y="387" font-size="17">输入侧分支：分层历史记忆</text><text x="370" y="387" font-size="16" fill="#5a6d83">问题之间的联系示意；不同模型与任务分别报告结果。</text>
+</g></svg>

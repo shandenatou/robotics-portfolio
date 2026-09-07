@@ -1,0 +1,7 @@
+eval,phase,episodes,successes_est,rate
+base,random,50,41,0.82
+base,clean,50,38,0.76
+u30,random,50,40,0.8
+u30,clean,50,37,0.74
+u40,random,50,44,0.88
+u40,clean,50,39,0.78

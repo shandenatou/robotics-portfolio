@@ -1,0 +1,5 @@
+# Keep exported data byte-identical so manifest hashes survive checkout.
+* text=auto eol=lf
+*.csv -text
+*.gif binary
+*.png binary
